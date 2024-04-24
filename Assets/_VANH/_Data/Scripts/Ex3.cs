@@ -8,7 +8,6 @@ public class Ex3 : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private Transform[] Points;
     private int indexPoint = 0;
-    private bool isMovingToTarget = true;
 
     private void Update()
     {

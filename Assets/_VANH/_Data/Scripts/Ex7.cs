@@ -6,7 +6,6 @@ using Vector3 = UnityEngine.Vector3;
 public class Ex7 : MonoBehaviour
 {
     [SerializeField] private Transform[] points;
-    private bool isMovingToTarget = true;
     private int indexPoint = 0;
     private float moveSpeed = 3f;
     private void Update()
